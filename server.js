@@ -10,7 +10,7 @@ var server = express();
 server.use(morgan);
 
 connetDB(function(db) {
-  server.use('/:collection', collectionRouter(db));
+  server.use('/application', collectionRouter(db));
 })
 
 server.listen(port, hostname, function() {

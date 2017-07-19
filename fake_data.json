@@ -1,0 +1,671 @@
+{
+    "_id": "58f7c4233a74770001848cb2",
+    "name": "Campaign Service",
+    "slug": "campaignservice",
+    "secret": "eucomocouv_e",
+    "password": "campaign-service",
+    "expireTokenAt": 8,
+    "groups": [
+        {
+            "_id": "58f7c5363a74770001848cb3",
+            "name": "Admin",
+            "slug": "admin",
+            "authorizations": [
+                {
+                    "_id": "59246532febb1900013f5403",
+                    "name": "Update any campaign",
+                    "slug": "updateanycampaign",
+                    "type": "ENTITY",
+                    "parameter": "ALL",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "5924653ffebb1900013f5404",
+                    "name": "Create any campaign",
+                    "slug": "createanycampaign",
+                    "type": "ENTITY",
+                    "parameter": "ALL",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "59246548febb1900013f5405",
+                    "name": "Read any campaign",
+                    "slug": "readanycampaign",
+                    "type": "ENTITY",
+                    "parameter": "ALL",
+                    "action": "READ"
+                },
+                {
+                    "_id": "59246551febb1900013f5406",
+                    "name": "Delete any campaign",
+                    "slug": "deleteanycampaign",
+                    "type": "ENTITY",
+                    "parameter": "ALL",
+                    "action": "DELETE"
+                },
+                {
+                    "_id": "592465d3febb1900013f5407",
+                    "name": "Delete DISCOUNT_RANGE",
+                    "slug": "deletediscountrange",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_RANGE",
+                    "action": "DELETE"
+                },
+                {
+                    "_id": "59246609febb1900013f5408",
+                    "name": "Update DISCOUNT_RANGE",
+                    "slug": "updatediscountrange",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_RANGE",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "59246612febb1900013f5409",
+                    "name": "Read DISCOUNT_RANGE",
+                    "slug": "readdiscountrange",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_RANGE",
+                    "action": "READ"
+                },
+                {
+                    "_id": "5924661afebb1900013f540a",
+                    "name": "Create DISCOUNT_RANGE",
+                    "slug": "creatediscountrange",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_RANGE",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "59246634febb1900013f540b",
+                    "name": "Create FREE_SHIPPING",
+                    "slug": "createfreeshipping",
+                    "type": "ENTITY",
+                    "parameter": "FREE_SHIPPING",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "5924663cfebb1900013f540c",
+                    "name": "Read FREE_SHIPPING",
+                    "slug": "readfreeshipping",
+                    "type": "ENTITY",
+                    "parameter": "FREE_SHIPPING",
+                    "action": "READ"
+                },
+                {
+                    "_id": "59246644febb1900013f540d",
+                    "name": "Update FREE_SHIPPING",
+                    "slug": "updatefreeshipping",
+                    "type": "ENTITY",
+                    "parameter": "FREE_SHIPPING",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "5924664dfebb1900013f540e",
+                    "name": "Delete FREE_SHIPPING",
+                    "slug": "deletefreeshipping",
+                    "type": "ENTITY",
+                    "parameter": "FREE_SHIPPING",
+                    "action": "DELETE"
+                },
+                {
+                    "_id": "5924665cfebb1900013f540f",
+                    "name": "Delete INSTALLMENT",
+                    "slug": "deleteinstallment",
+                    "type": "ENTITY",
+                    "parameter": "INSTALLMENT",
+                    "action": "DELETE"
+                },
+                {
+                    "_id": "59246663febb1900013f5410",
+                    "name": "Update INSTALLMENT",
+                    "slug": "updateinstallment",
+                    "type": "ENTITY",
+                    "parameter": "INSTALLMENT",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "5924666efebb1900013f5411",
+                    "name": "Read INSTALLMENT",
+                    "slug": "readinstallment",
+                    "type": "ENTITY",
+                    "parameter": "INSTALLMENT",
+                    "action": "READ"
+                },
+                {
+                    "_id": "59246678febb1900013f5412",
+                    "name": "Create INSTALLMENT",
+                    "slug": "createinstallment",
+                    "type": "ENTITY",
+                    "parameter": "INSTALLMENT",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "592d89f16c85d80001c57b6c",
+                    "name": "Create discount per payment method",
+                    "slug": "creatediscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "592d8a006c85d80001c57b6d",
+                    "name": "Read discount per payment method",
+                    "slug": "readdiscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "READ"
+                },
+                {
+                    "_id": "592d8a0b6c85d80001c57b6e",
+                    "name": "Update discount per payment method",
+                    "slug": "updatediscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "592d8a156c85d80001c57b6f",
+                    "name": "Delete discount per payment method",
+                    "slug": "deletediscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "DELETE"
+                },
+                {
+                    "_id": "592d8ab76c85d80001c57b70",
+                    "name": "Delete discount per payment method",
+                    "slug": "deletediscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "DELETE"
+                },
+                {
+                    "_id": "5931dd28f1badf000176a16c",
+                    "name": "Create active campaign",
+                    "slug": "createactivecampaign",
+                    "type": "ACTION",
+                    "parameter": "ACTIVE_CAMPAIGN",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "5931dd39f1badf000176a16d",
+                    "name": "Update active campaign",
+                    "slug": "updateactivecampaign",
+                    "type": "ACTION",
+                    "parameter": "ACTIVE_CAMPAIGN",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "5931dd4bf1badf000176a16e",
+                    "name": "Update send invite",
+                    "slug": "updatesendinvite",
+                    "type": "ACTION",
+                    "parameter": "SEND_INVITE",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "5931dd57f1badf000176a16f",
+                    "name": "Create send invite",
+                    "slug": "createsendinvite",
+                    "type": "ACTION",
+                    "parameter": "SEND_INVITE",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "5939806ff1badf000176a192",
+                    "name": "Create activate campaign",
+                    "slug": "createactivatecampaign",
+                    "type": "ACTION",
+                    "parameter": "ACTIVATE_CAMPAIGN",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "59398075f1badf000176a193",
+                    "name": "Update activate campaign",
+                    "slug": "updateactivatecampaign",
+                    "type": "ACTION",
+                    "parameter": "ACTIVATE_CAMPAIGN",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "593ab293f1badf000176a194",
+                    "name": "Create FREIGHT",
+                    "slug": "createfreight",
+                    "type": "ENTITY",
+                    "parameter": "FREIGHT",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "593ab29df1badf000176a195",
+                    "name": "Read FREIGHT",
+                    "slug": "readfreight",
+                    "type": "ENTITY",
+                    "parameter": "FREIGHT",
+                    "action": "READ"
+                },
+                {
+                    "_id": "593ab2a9f1badf000176a196",
+                    "name": "Update FREIGHT",
+                    "slug": "updatefreight",
+                    "type": "ENTITY",
+                    "parameter": "FREIGHT",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "593ab2b1f1badf000176a197",
+                    "name": "Delete FREIGHT",
+                    "slug": "deletefreight",
+                    "type": "ENTITY",
+                    "parameter": "FREIGHT",
+                    "action": "DELETE"
+                },
+                {
+                    "_id": "595bd4eec852aa00013f636e",
+                    "name": "Create COUPON_DISCOUNT",
+                    "slug": "createcoupondiscount",
+                    "type": "ENTITY",
+                    "parameter": "COUPON_DISCOUNT",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "595bd4f2c852aa00013f636f",
+                    "name": "Read COUPON_DISCOUNT",
+                    "slug": "readcoupondiscount",
+                    "type": "ENTITY",
+                    "parameter": "COUPON_DISCOUNT",
+                    "action": "READ"
+                },
+                {
+                    "_id": "595bd4f5c852aa00013f6370",
+                    "name": "Update COUPON_DISCOUNT",
+                    "slug": "updatecoupondiscount",
+                    "type": "ENTITY",
+                    "parameter": "COUPON_DISCOUNT",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "595bd4f9c852aa00013f6371",
+                    "name": "Delete COUPON_DISCOUNT",
+                    "slug": "deletecoupondiscount",
+                    "type": "ENTITY",
+                    "parameter": "COUPON_DISCOUNT",
+                    "action": "DELETE"
+                },
+                {
+                    "_id": "595bfa5dc852aa00013f6376",
+                    "name": "Create COUPON_DISCOUNT",
+                    "slug": "createcoupondiscount",
+                    "type": "ENTITY",
+                    "parameter": "COUPON_DISCOUNT",
+                    "action": "CREATE"
+                }
+            ],
+            "users": [
+                {
+                    "_id": "58f7c64d3a74770001848cb8",
+                    "username": "user - 58f7c64d3a74770001848cb8"
+                },
+                {
+                    "_id": "58f7c6553a74770001848cb9",
+                    "username": "user - 58f7c6553a74770001848cb9"
+                },
+                {
+                    "_id": "58f7c66d3a74770001848cba",
+                    "username": "user - 58f7c66d3a74770001848cba"
+                },
+                {
+                    "_id": "58f7c6753a74770001848cbb",
+                    "username": "user - 58f7c6753a74770001848cbb"
+                },
+                {
+                    "_id": "58f7c6803a74770001848cbc",
+                    "username": "user - 58f7c6803a74770001848cbc"
+                },
+                {
+                    "_id": "58f7c68e3a74770001848cbd",
+                    "username": "user - 58f7c68e3a74770001848cbd"
+                },
+                {
+                    "_id": "58f7c69c3a74770001848cbe",
+                    "username": "user - 58f7c69c3a74770001848cbe"
+                },
+                {
+                    "_id": "5938717ff1badf000176a191",
+                    "username": "user - 5938717ff1badf000176a191"
+                },
+                {
+                    "_id": "5947f4d5abe83900011d7163",
+                    "username": "user - .test5947f4d5abe83900011d7163"
+                },
+                {
+                    "_id": "59498c09abe83900011d7164",
+                    "username": "user - 59498c09abe83900011d7164"
+                },
+                {
+                    "_id": "596780a9ce7d680001128a73",
+                    "username": "user - 596780a9ce7d680001128a73"
+                },
+                {
+                    "_id": "596e5db6ce7d680001128a74",
+                    "username": "user - 596e5db6ce7d680001128a74"
+                }
+            ]
+        },
+        {
+            "_id": "592f33f4ad15180001a51f06",
+            "name": "Service",
+            "slug": "service",
+            "authorizations": [
+                {
+                    "_id": "592f350f7c8f390001e41987",
+                    "name": "Read DISCOUNT_RANGE",
+                    "slug": "readdiscountrange",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_RANGE",
+                    "action": "READ"
+                },
+                {
+                    "_id": "592f36267c8f390001e4198c",
+                    "name": "Read DISCOUNT_PER_PAYMENT_METHOD",
+                    "slug": "readdiscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "READ"
+                },
+                {
+                    "_id": "592f38307d0c6000011c9ee3",
+                    "name": "Create ANSWER",
+                    "slug": "createanswer",
+                    "type": "ENTITY",
+                    "parameter": "ANSWER",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "5931d444f1badf000176a168",
+                    "name": "Read ALL",
+                    "slug": "readall",
+                    "type": "ENTITY",
+                    "parameter": "ALL",
+                    "action": "READ"
+                },
+                {
+                    "_id": "593ed214f1badf000176a198",
+                    "name": "Read FREIGHT",
+                    "slug": "readfreight",
+                    "type": "ENTITY",
+                    "parameter": "FREIGHT",
+                    "action": "READ"
+                }
+            ],
+            "users": [
+                {
+                    "_id": "592f3420ad15180001a51f07",
+                    "username": "user - 592f3420ad15180001a51f07"
+                }
+            ]
+        },
+        {
+            "_id": "59383b5df1badf000176a178",
+            "name": "DISCOUNT_RANGE Operator",
+            "slug": "discountrangeoperator",
+            "authorizations": [
+                {
+                    "_id": "59383b91f1badf000176a179",
+                    "name": "Create DISCOUNT_RANGE",
+                    "slug": "creatediscountrange",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_RANGE",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "59383bb0f1badf000176a17a",
+                    "name": "Read DISCOUNT_RANGE",
+                    "slug": "readdiscountrange",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_RANGE",
+                    "action": "READ"
+                },
+                {
+                    "_id": "59383bbff1badf000176a17b",
+                    "name": "Update DISCOUNT_RANGE",
+                    "slug": "updatediscountrange",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_RANGE",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "59383bcaf1badf000176a17c",
+                    "name": "Delete DISCOUNT_RANGE",
+                    "slug": "deletediscountrange",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_RANGE",
+                    "action": "DELETE"
+                }
+            ],
+            "users": [
+                {
+                    "_id": "593ee682f1badf000176a19c",
+                    "username": "user - 593ee682f1badf000176a19c"
+                },
+                {
+                    "_id": "593ee690f1badf000176a19d",
+                    "username": "user - 593ee690f1badf000176a19d"
+                },
+                {
+                    "_id": "593ee69cf1badf000176a19e",
+                    "username": "user - 593ee69cf1badf000176a19e"
+                },
+                {
+                    "_id": "594a8248abe83900011d7166",
+                    "username": "user - 594a8248abe83900011d7166"
+                },
+                {
+                    "_id": "5952a7cfc852aa00013f6364",
+                    "username": "user - 5952a7cfc852aa00013f6364"
+                }
+            ]
+        },
+        {
+            "_id": "59383deef1badf000176a187",
+            "name": "DISCOUNT_PER_PAYMENT_METHOD Operator",
+            "slug": "discountperpaymentmethodoperator",
+            "authorizations": [
+                {
+                    "_id": "59383e13f1badf000176a188",
+                    "name": "Create DISCOUNT_PER_PAYMENT_METHOD",
+                    "slug": "creatediscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "59383e1df1badf000176a189",
+                    "name": "Read DISCOUNT_PER_PAYMENT_METHOD",
+                    "slug": "readdiscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "READ"
+                },
+                {
+                    "_id": "59383e28f1badf000176a18a",
+                    "name": "Update DISCOUNT_PER_PAYMENT_METHOD",
+                    "slug": "updatediscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "59383e2ef1badf000176a18b",
+                    "name": "Delete DISCOUNT_PER_PAYMENT_METHOD",
+                    "slug": "deletediscountperpaymentmethod",
+                    "type": "ENTITY",
+                    "parameter": "DISCOUNT_PER_PAYMENT_METHOD",
+                    "action": "DELETE"
+                }
+            ],
+            "users": [
+                {
+                    "_id": "593ee74df1badf000176a1a5",
+                    "username": "user - 593ee74df1badf000176a1a5"
+                },
+                {
+                    "_id": "593ee759f1badf000176a1a6",
+                    "username": "user - 593ee759f1badf000176a1a6"
+                },
+                {
+                    "_id": "593ee767f1badf000176a1a7",
+                    "username": "user - 593ee767f1badf000176a1a7"
+                },
+                {
+                    "_id": "594a82acabe83900011d7168",
+                    "username": "user - 594a82acabe83900011d7168"
+                },
+                {
+                    "_id": "5952a80ac852aa00013f6366",
+                    "username": "user - 5952a80ac852aa00013f6366"
+                }
+            ]
+        },
+        {
+            "_id": "59383e7ef1badf000176a18c",
+            "name": "Campaign Manager",
+            "slug": "campaignmanager",
+            "authorizations": [
+                {
+                    "_id": "59383eb6f1badf000176a18d",
+                    "name": "Create active campaign",
+                    "slug": "createactivecampaign",
+                    "type": "ACTION",
+                    "parameter": "ACTIVE_CAMPAIGN",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "59383ec1f1badf000176a18e",
+                    "name": "Update active campaign",
+                    "slug": "updateactivecampaign",
+                    "type": "ACTION",
+                    "parameter": "ACTIVE_CAMPAIGN",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "59383efdf1badf000176a18f",
+                    "name": "Create send invite",
+                    "slug": "createsendinvite",
+                    "type": "ACTION",
+                    "parameter": "SEND_INVITE",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "59383f07f1badf000176a190",
+                    "name": "Update send invite",
+                    "slug": "updatesendinvite",
+                    "type": "ACTION",
+                    "parameter": "SEND_INVITE",
+                    "action": "UPDATE"
+                }
+            ],
+            "users": [
+                {
+                    "_id": "593ee623f1badf000176a199",
+                    "username": "user - 593ee623f1badf000176a199"
+                },
+                {
+                    "_id": "593ee62df1badf000176a19a",
+                    "username": "user - 593ee62df1badf000176a19a"
+                },
+                {
+                    "_id": "593ee637f1badf000176a19b",
+                    "username": "user - 593ee637f1badf000176a19b"
+                },
+                {
+                    "_id": "594a82dcabe83900011d716a",
+                    "username": "user - 594a82dcabe83900011d716a"
+                },
+                {
+                    "_id": "5952a825c852aa00013f6367",
+                    "username": "user - 5952a825c852aa00013f6367"
+                }
+            ]
+        },
+        {
+            "_id": "593ee8abf1badf000176a1a8",
+            "name": "FREIGHT Operator",
+            "slug": "freightoperator",
+            "authorizations": [
+                {
+                    "_id": "593ee8c7f1badf000176a1a9",
+                    "name": "Create FREIGHT",
+                    "slug": "createfreight",
+                    "type": "ENTITY",
+                    "parameter": "FREIGHT",
+                    "action": "CREATE"
+                },
+                {
+                    "_id": "593ee8d0f1badf000176a1aa",
+                    "name": "Read FREIGHT",
+                    "slug": "readfreight",
+                    "type": "ENTITY",
+                    "parameter": "FREIGHT",
+                    "action": "READ"
+                },
+                {
+                    "_id": "593ee8d6f1badf000176a1ab",
+                    "name": "Update FREIGHT",
+                    "slug": "updatefreight",
+                    "type": "ENTITY",
+                    "parameter": "FREIGHT",
+                    "action": "UPDATE"
+                },
+                {
+                    "_id": "593ee8def1badf000176a1ac",
+                    "name": "Delete FREIGHT",
+                    "slug": "deletefreight",
+                    "type": "ENTITY",
+                    "parameter": "FREIGHT",
+                    "action": "DELETE"
+                }
+            ],
+            "users": [
+                {
+                    "_id": "593ee8f4f1badf000176a1ad",
+                    "username": "user - 593ee8f4f1badf000176a1ad"
+                },
+                {
+                    "_id": "593ee8fcf1badf000176a1ae",
+                    "username": "user - 593ee8fcf1badf000176a1ae"
+                },
+                {
+                    "_id": "593ee908f1badf000176a1af",
+                    "username": "user - 593ee908f1badf000176a1af"
+                },
+                {
+                    "_id": "594a82c5abe83900011d7169",
+                    "username": "user - 594a82c5abe83900011d7169"
+                },
+                {
+                    "_id": "5952a839c852aa00013f6368",
+                    "username": "user - 5952a839c852aa00013f6368"
+                }
+            ]
+        }
+    ],
+    "admins": [
+        {
+            "_id": "5914c0f42eab14f861e2ff6d",
+            "username": "user - 5914c0f42eab14f861e2ff6d"
+        },
+        {
+            "_id": "5914c1272eab14f861e2ff6e",
+            "username": "user - 5914c1272eab14f861e2ff6e"
+        },
+        {
+            "_id": "5914c13c2eab14f861e2ff6f",
+            "username": "user - 5914c13c2eab14f861e2ff6f"
+        },
+        {
+            "_id": "5914c1692eab14f861e2ff70",
+            "username": "user - 5914c1692eab14f861e2ff70"
+        }
+    ],
+    "cache": false
+}
